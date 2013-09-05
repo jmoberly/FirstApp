@@ -204,11 +204,30 @@
     <Compile Include="Migrations\201309051920483_MaxLengthOnNames.Designer.cs">
       <DependentUpon>201309051920483_MaxLengthOnNames.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201309051947540_ColumnFirstName.cs" />
+    <Compile Include="Migrations\201309051947540_ColumnFirstName.Designer.cs">
+      <DependentUpon>201309051947540_ColumnFirstName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201309051949401_ColumnFirstName2.cs" />
+    <Compile Include="Migrations\201309051949401_ColumnFirstName2.Designer.cs">
+      <DependentUpon>201309051949401_ColumnFirstName2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201309051954445_ColumnFirstName3.cs" />
+    <Compile Include="Migrations\201309051954445_ColumnFirstName3.Designer.cs">
+      <DependentUpon>201309051954445_ColumnFirstName3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201309052120152_Chap4.cs" />
+    <Compile Include="Migrations\201309052120152_Chap4.Designer.cs">
+      <DependentUpon>201309052120152_Chap4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\Instructor.cs" />
+    <Compile Include="Models\OfficeAssignment.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\EnrollmentDateGroup.cs" />
@@ -352,6 +371,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201309051920483_MaxLengthOnNames.resx">
       <DependentUpon>201309051920483_MaxLengthOnNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201309051947540_ColumnFirstName.resx">
+      <DependentUpon>201309051947540_ColumnFirstName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201309051949401_ColumnFirstName2.resx">
+      <DependentUpon>201309051949401_ColumnFirstName2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201309051954445_ColumnFirstName3.resx">
+      <DependentUpon>201309051954445_ColumnFirstName3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201309052120152_Chap4.resx">
+      <DependentUpon>201309052120152_Chap4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
