@@ -1,4 +1,5 @@
-﻿using FirstApp.Models;
+﻿using FirstApp.Migrations;
+using FirstApp.Models;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
@@ -13,6 +14,7 @@ namespace FirstApp.DAL
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<SchoolContext, Configuration>());
         }
     }
 }
