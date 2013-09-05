@@ -1,0 +1,1 @@
+This app is to learn about Entity Framework, App Harbor, and GitHub on Windows.
