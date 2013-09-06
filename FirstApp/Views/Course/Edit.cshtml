@@ -30,7 +30,13 @@
             @Html.EditorFor(model => model.Credits)
             @Html.ValidationMessageFor(model => model.Credits)
         </div>
-
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DepartmentID, "Department")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("DepartmentID", String.Empty)
+            @Html.ValidationMessageFor(model => model.DepartmentID)
+        </div>
         <p>
             <input type="submit" value="Save" />
         </p>
