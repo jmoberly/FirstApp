@@ -115,7 +115,7 @@ namespace FirstApp.Migrations
             {
                 new OfficeAssignment { 
                     InstructorID = instructors.Single( i => i.LastName == "Fakhouri").InstructorID, 
-                    Location = "Smith 17" },
+                    Location = "Smith 16" },
                 new OfficeAssignment { 
                     InstructorID = instructors.Single( i => i.LastName == "Harui").InstructorID, 
                     Location = "Gowan 27" },
